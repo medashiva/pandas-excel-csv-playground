@@ -3,8 +3,7 @@ import logging
 import pandas as pd
 class FileUpload(View):
     '''
-    using pandas insert csv data into data base using django bulk create
-    it took 0.89000 
+    using pandas and django bulk create inserting csv data to DB took 0.89000 
     '''
     def post(self, request):
         try:
@@ -32,8 +31,7 @@ fileupload=FileUpload.as_view()
 
 class FileUpload(View):
     '''
-    using pandas insert csv data into data base using django create
-    it took 12.000001  
+    using pandas and django create insert csv data into DB took 12.000001  
     '''
     def post(self, request):
         try:
